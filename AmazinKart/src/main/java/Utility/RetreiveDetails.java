@@ -13,6 +13,7 @@ import java.io.FileWriter;
 import Model.ProductModel;
 import Model.ExchangeApiModel;
 
+
 public class RetreiveDetails {
 
     public List<ProductModel> retrieveProductDetails() throws IOException {
@@ -81,17 +82,23 @@ public class RetreiveDetails {
         return output;
     }
 
-    public void WriteToFile(List<ProductModel> output)
+    public void WriteToFile(List<ProductModel> output) throws IOException
     {
         try {
-
-            FileWriter file = new FileWriter("/Users/z002965/AmazinKart1/src/main/Output/Output.json") ;
-
-                file.write(output.toString());
+        // if  the code is executed in mac "the file path need to be specifed in this pattern"
+            FileWriter file = new FileWriter("\\Output\\Output.json") ;
+            file.write(output.toString());
 
           file.close();
 
         }catch (IOException e) {
+            // if incase the code is executed in windows "the file path need to be specifed in this pattern"
+            FileWriter filewindow = new FileWriter("/Output/Output.json") ;
+            filewindow.write(output.toString());
+            filewindow.close();
+        }
+        catch (Exception e)
+        {
             e.printStackTrace();
         }
     }
