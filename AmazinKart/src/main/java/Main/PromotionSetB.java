@@ -1,6 +1,12 @@
+package Main;
+
+import Service.ProcessPromotionSetB;
+
 import java.io.IOException;
 import java.util.List;
-
+import Utility.RetreiveDetails;
+import Model.discount;
+import Model.ProductModel;
 
 public class PromotionSetB {
 

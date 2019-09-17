@@ -1,8 +1,14 @@
+package Service;
+
 import java.util.ArrayList;
 import java.util.List;
-public class ProcessPromotionSetA {
+import Model.discount;
+import Model.ProductModel;
 
-    public List<discount> ProcessPromotionSetA(List<ProductModel> productModel)
+
+public class ProcessPromotionSetB {
+
+    public List<discount> ProcessPromotionSetB(List<ProductModel> productModel)
     {
 
         discount finalResponseModel = new discount();
@@ -14,25 +20,15 @@ public class ProcessPromotionSetA {
             double Price =Double.parseDouble(input.getPrice());
             double discount= 0;
             double Maxdiscount =0;
-            if(input.getOrigin().equals("Africa"))
+            if(input.getInventory()>20)
             {
-                Maxdiscount = (Maxdiscount<=discount)?Price *0.07: Maxdiscount;
+                Maxdiscount = (Maxdiscount<=discount)?Price *0.12: Maxdiscount;
+                DiscountType = "get 12% off";
+            }
+            if (input.getArrival()!=null && (input.getArrival().equals("NEW") ||input.getArrival().equals("new")))
+            {
+                Maxdiscount = (Maxdiscount<=discount)?Price * 0.07: Maxdiscount;
                 DiscountType = "get 7% off";
-            }
-             if (input.getRating() == 2)
-            {
-                Maxdiscount = (Maxdiscount<=discount)?Price * 0.04: Maxdiscount;
-                DiscountType = "get 4% off";
-            }
-             if (input.getRating() < 2)
-            {
-                Maxdiscount = (Maxdiscount<=discount)?Price * 0.08: Maxdiscount;
-                DiscountType = "get 8% off";
-            }
-             if ((input.getCategory().equals("electronics") || input.getCategory().equals("furnishing")) && Integer.parseInt(input.getPrice()) >= 500 )
-            {
-                Maxdiscount = (Maxdiscount<=discount)?Price- 100: Maxdiscount;
-                DiscountType = "get Rs 100 off";
             }
             else
             {

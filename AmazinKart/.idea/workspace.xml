@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82f97a1e-a42f-43a6-ab51-7bb44201e2d8" name="Default Changelist" comment="" />
+    <list default="true" id="82f97a1e-a42f-43a6-ab51-7bb44201e2d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_apache_clerezza_ext_org_json_simple_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/org_projectlombok_lombok_1_16_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AmazinKart1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AmazinKart1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ExchangeApiModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/ExchangeApiModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProcessPromotionSetA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/ProcessPromotionSetA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProcessPromotionSetB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Service/ProcessPromotionSetB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProductModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/ProductModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PromotionSetA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/PromotionSetA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PromotionSetB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/PromotionSetB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RetreiveDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utility/RetreiveDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/discount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/discount.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,13 +30,12 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ProcessPromotionSetA.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Model/ExchangeApiModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="48" lean-forward="true" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+            <state relative-caret-position="15">
+              <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#286#296#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -38,6 +54,9 @@
     <findStrings>
       <find>JP</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -59,6 +78,14 @@
         <option value="$PROJECT_DIR$/src/main/java/PromotionSetA.java" />
         <option value="$PROJECT_DIR$/src/main/java/ProcessPromotionSetB.java" />
         <option value="$PROJECT_DIR$/src/main/java/ProcessPromotionSetA.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main/PromotionSetA.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main/PromotionSetB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/discount.java" />
+        <option value="$PROJECT_DIR$/AmazinKart1.iml" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/ProcessPromotionSetB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/ProcessPromotionSetA.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Utility/RetreiveDetails.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/ExchangeApiModel.java" />
       </list>
     </option>
   </component>
@@ -68,23 +95,78 @@
     <option name="width" value="1400" />
     <option name="height" value="929" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="AmazinKart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmazinKart1" type="b2602c69:ProjectViewProjectNode" />
               <item name="AmazinKart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmazinKart1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmazinKart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmazinKart1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmazinKart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmazinKart1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmazinKart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmazinKart1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmazinKart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmazinKart1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmazinKart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmazinKart1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmazinKart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmazinKart1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AmazinKart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Utility" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AmazinKart1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -93,7 +175,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568748374983" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568750128719" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -111,16 +193,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PromotionSetA">
+  <component name="RunManager" selected="Application.PromotionSetB">
     <configuration name="PromotionSetA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PromotionSetA" />
+      <option name="MAIN_CLASS_NAME" value="Main.PromotionSetA" />
       <module name="AmazinKart1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="PromotionSetB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PromotionSetB" />
+      <option name="MAIN_CLASS_NAME" value="Main.PromotionSetB" />
       <module name="AmazinKart1" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,8 +210,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PromotionSetA" />
         <item itemvalue="Application.PromotionSetB" />
+        <item itemvalue="Application.PromotionSetA" />
       </list>
     </recent_temporary>
   </component>
@@ -147,10 +229,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="154" y="30" width="1400" height="929" extended-state="0" />
+    <frame x="229" y="63" width="1400" height="929" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24642856" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24642856" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -158,7 +240,7 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32934132" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32934132" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49933246" weight="0.32934132" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38922155" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -191,8 +273,8 @@
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/PromotionSetA.java</url>
-          <line>14</line>
+          <url>file://$PROJECT_DIR$/src/main/java/Main/PromotionSetA.java</url>
+          <line>16</line>
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
@@ -218,9 +300,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/porm.xml" />
-    <entry file="file://$PROJECT_DIR$/AmazinKart1.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -268,13 +347,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ExchangeApiModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ExchangeApiModel.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/io/ObjectOutputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
@@ -315,7 +388,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ProductModel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Output/Output.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="42" selection-start-column="42" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Output.json" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ProcessPromotionSetB.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ProcessPromotionSetA.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/ProductModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
@@ -325,72 +408,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Output/Output.json">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main/PromotionSetA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="42" selection-start-column="42" selection-end-column="42" />
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="8" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Output.json" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/RetreiveDetails.java">
+    <entry file="file://$PROJECT_DIR$/AmazinKart1.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="94" column="32" lean-forward="true" selection-start-line="94" selection-start-column="32" selection-end-line="94" selection-end-column="32" />
+        <state relative-caret-position="240">
+          <caret line="16" column="103" selection-start-line="16" selection-start-column="103" selection-end-line="16" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/ProcessPromotionSetB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#388#398#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/discount.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/ProcessPromotionSetA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding>
+            <element signature="e#387#397#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main/PromotionSetB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PromotionSetB.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utility/RetreiveDetails.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2503#2517#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/discount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PromotionSetA.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/ExchangeApiModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="15">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ProcessPromotionSetB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#287#297#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ProcessPromotionSetA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="48" lean-forward="true" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#286#296#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -472,7 +560,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>org.apache.clerezza.ext:org.json.simple:0.4</last-edited>
+          <last-edited>org.projectlombok:lombok:1.16.16</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -1,7 +1,6 @@
+package Utility;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.sun.deploy.net.HttpResponse;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -10,9 +9,10 @@ import java.net.HttpURLConnection;
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
 import java.io.FileWriter;
+import Model.ProductModel;
+import Model.ExchangeApiModel;
+
 public class RetreiveDetails {
 
     public List<ProductModel> retrieveProductDetails() throws IOException {
